@@ -21,7 +21,7 @@ HIGH_SPEED = 8  # 字体移动最快速度
 FONT_COLOR = (00, 150, 00)  # 字体颜色
 FONT_SIZE = 8  # 字体尺寸
 FONT_NOM = 10  # 显示字体数量  从0开始
-FONT_NAME = "D:/pythonFile/项目/字符雨/font.ttf"  # 注意字体的文件名必须与真实文件完全相同（注意ttf的大小写），且文件名不能是中文
+FONT_NAME = "D:\\pythonFile\\项目\\coderain\\font.ttf"  # 注意字体的文件名必须与真实文件完全相同（注意ttf的大小写），且文件名不能是中文
 FREQUENCE = 120  # 时间频度
 times = 0  # 初始化时间
 
