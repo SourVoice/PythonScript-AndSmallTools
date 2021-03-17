@@ -40,7 +40,8 @@ def randomoname():
 
 
 def randomvalue():
-    return random.choice('qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890')  # this is your own display number range
+    return random.choice(
+        'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890')  # this is your own display number range
 
 
 # class of sprite
@@ -83,4 +84,3 @@ while True:
     group.update()
     group.draw(screen)
     pygame.display.update()
-
