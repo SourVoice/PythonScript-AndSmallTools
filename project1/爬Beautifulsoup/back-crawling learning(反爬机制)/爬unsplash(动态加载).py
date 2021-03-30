@@ -37,6 +37,7 @@ class Download(object):
         json_data = json.loads(req.text)  # 返回一个列表对象<class 'list'>  但列表中每一行为字典(for each in json_data)\
         # type(each): <class 'dict'>
         for each in json_data:
+
             if each['alt_description'] is not 'None':
                 # print(each['alt_description'])
                 # print('---------------------------------------------------------------------', '\n')
