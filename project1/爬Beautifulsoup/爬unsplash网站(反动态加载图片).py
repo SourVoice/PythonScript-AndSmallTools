@@ -21,7 +21,7 @@ class Download(object):
 
     # 人工创造一个向下滚动的行为
     def create_link(self):
-        for i in range(3, 4):
+        for i in range(3, 9):
             self.urls.append(self.serve + str(i))
 
     def get_image_url(self, target):
