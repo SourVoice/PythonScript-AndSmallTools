@@ -1,0 +1,11 @@
+# 1.
+import os
+
+i = os.system("cls")
+# 2.
+import subprocess
+
+i = subprocess.call("cls", shell=True)
+
+
+

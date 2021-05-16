@@ -1,0 +1,4 @@
+1.ValueError: I/O operation on closed file.
+    原因:f.close()处于位置不正确,
+    所有的文件操作必须在with open同一缩进下
+    ,

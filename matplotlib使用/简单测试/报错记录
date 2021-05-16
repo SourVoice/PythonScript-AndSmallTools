@@ -1,0 +1,9 @@
+1.
+    plt.plot(input_values, squares, linewidth=5)
+    ValueError: x and y must have same first dimension, but have shapes (5,) and (4,)
+    表示两个参数必须一个维度(位数一致)
+2.
+    # 设定坐标轴取值范围
+    plt.axis([0, 1100, 1100000])
+    ValueError: not enough values to unpack (expected 4, got 3)
+    接受四个参数

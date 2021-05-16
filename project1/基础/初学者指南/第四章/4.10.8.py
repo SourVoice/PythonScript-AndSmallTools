@@ -1,0 +1,30 @@
+import random
+
+WORDS = ("python", "jumble", "easy", "difficult", "answer", "xylophone")
+
+word = random.choice(WORDS)
+
+correct = word
+
+jumble = ""
+while word:
+    position = random.randrange(len(word))
+    jumble += word[position]
+    word = word[:position] + word[(position + 1):]
+
+# 开始游戏
+print(
+    '''
+                Welcome to Word Jumble!
+          Unscramble the letters to make a word.
+    '''
+)
+print("The jumble is:", jumble)
+guess = input("\nYour guss: ")
+while guess != correct and guess != "":
+    print("Sorry, that's not it.")
+    guess = input("Your guess: ")
+if guess == correct:
+    print("That's it! You guessed it!\n")
+print("Thanks for playing.")
+input("\n\nPress the enter key to exit.")
