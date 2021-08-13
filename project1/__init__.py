@@ -1,10 +1,8 @@
-import string
+import os
+import sys
+os_file = input("")
+fos_file_w = os_file.open("wb")
+ipl_file = input("")
 
-guess_girl = input("input a age possibly be an age:")
-if str.isdigit(guess_girl):
-    print('right input')
-else:
-    print('error input!')
-
-if guess_girl == 25:
-    print('!!!')
+with open("ipl.img", "wb") as f:
+    f.write(bufbin)
