@@ -4,7 +4,7 @@ from random_walk import RandomWalk
 if __name__ == '__main__':
 
     while True:
-        rw = RandomWalk(120000)  # 增大点数二十万(12-18)一下较好(原始尺寸下),这样已经太慢了而且再大图形将不好看了
+        rw = RandomWalk(12000)  # 增大点数二十万(12-18)一下较好(原始尺寸下),这样已经太慢了而且再大图形将不好看了
         rw.fill_walk()
         plt.figure(dpi=128, figsize=(10, 6))  # 设置matplotlib尺寸(英寸),还可以指定分辨率,背景色.dpi=为分辨率参数(每英寸)
 
