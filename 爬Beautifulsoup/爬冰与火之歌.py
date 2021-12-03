@@ -64,7 +64,7 @@ class Dpower(object):
             self.ts_urls.append(each_ts[1])
 
     def download_to_file(self, each_episode):
-        path = 'C:/Users/rockstar/Desktop/fiction/quanlideyouxi'
+        path = 'C:/Users/rockstar/Desktop/temp/fiction/quanlideyouxi'
         process = 0
         for each in self.ts_urls:
             req = requests.get(each).text.encode('utf-8')
